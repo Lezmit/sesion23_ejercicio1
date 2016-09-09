@@ -23,5 +23,5 @@ window.addEventListener("load",function(){
 		}
 		var newpersona= new Persona(nombre,edad,sexo);
 		document.getElementById("resultado").innerHTML = newpersona.presentacion();
-		});
+	});
 });
